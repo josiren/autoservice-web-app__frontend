@@ -7,6 +7,7 @@ export const StyledButton = styled.button<StyledItemProps>`
   min-width: 7.9375rem;
   height: 3rem;
   padding: 0 1rem;
+  font-size: var(--heading-2-size);
   color: ${props => (props.primary ? 'var(--secondary-color)' : 'var(--primary-color)')};
   background-color: ${props => (props.primary ? 'var(--primary-color)' : 'var(--secondary-color)')};
   border-radius: var(--primary-border-radius);
