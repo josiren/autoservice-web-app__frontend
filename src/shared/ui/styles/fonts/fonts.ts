@@ -1,14 +1,13 @@
-import { Inter } from 'next/font/google';
-import localFont from 'next/font/local';
+import { Inter, Montserrat } from 'next/font/google';
 
 const inter = Inter({
   subsets: ['latin'],
   weight: '600',
 });
 
-const consolas = localFont({ src: './consolas.ttf' });
+const montserrat = Montserrat({ subsets: ['cyrillic'], weight: ['500', '600'] });
 
 export const Fonts = {
   inter,
-  consolas,
+  montserrat,
 };
